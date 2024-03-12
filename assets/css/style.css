@@ -1043,7 +1043,7 @@ a:focus {
     position: relative;
     border: none;
     color: #fff;
-    background-color: #6844ED;
+    background-color: #0A3459;
     border-radius: 14px;
     font-weight: 700;
     font-size: 16px;
@@ -1057,6 +1057,22 @@ a:focus {
     -ms-transition    : all 0.3s ease;
     -o-transition     : all 0.3s ease;
     transition        : all 0.3s ease;
+}
+
+.tf-button:hover,
+.tf-button.active {
+    color: #6844ED;
+    background-color: #fff;
+}
+
+.tf-button i {
+    font-size: 12px;
+}
+
+.tf-button.schedule {
+    
+    background-color: #EB1C22;
+    
 }
 
 .tf-button:hover,
@@ -2745,7 +2761,7 @@ body.page-yellow .progress-wrap svg.progress-circle path {
     width: 8px;
     height: 8px;
     z-index: 10000;
-    background-color: #6844ED;
+    background-color: #0A3459;
     -webkit-transition: width .5s ease-in-out, height .5s ease-in-out, margin .5s ease-in-out, opacity .5s ease-in-out;
     transition: width .5s ease-in-out, height .5s ease-in-out, margin .5s ease-in-out, opacity .5s ease-in-out
 }
@@ -2755,7 +2771,7 @@ body.page-yellow .progress-wrap svg.progress-circle path {
     margin-top: -40px;
     width: 80px;
     height: 80px;
-    background-color: #6844ED;
+    background-color: #0A3459;
     opacity: .3
 }
 
@@ -2764,7 +2780,7 @@ body.page-yellow .progress-wrap svg.progress-circle path {
     margin-top: -22px;
     width: 40px;
     height: 40px;
-    border: 2px solid #6844ED;
+    border: 2px solid #0A3459;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     z-index: 10000;
@@ -2799,4 +2815,44 @@ body.page-yellow .tf-mouse-inner {
 
 body.page-yellow .tf-mouse-outer {
     border-color: #E6F85E;
+}
+
+.design-title span {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+}
+
+.design-title span:before {
+    position: absolute;
+    color: #fff;
+    top: -14px;
+    left: -153px;
+    right: -155px;
+    bottom: -18px;
+    content: "";
+    background-image: url(../images/circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    animation-name: zoom-fade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: zoom-fade;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: zoom-fade;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: zoom-fade;
+    -ms-animation-duration: 5s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-animation-name: zoom-fade;
+    -o-animation-duration: 5s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: linear;
 }
