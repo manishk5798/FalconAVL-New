@@ -1678,7 +1678,7 @@ a:focus {
     width: 100%;
     box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.05);
     z-index: 9999;
-    background: #0A3459;
+    background: #030014;
     border: none;
     opacity: 1;
     -webkit-transition: all 0.5s ease;
@@ -2971,4 +2971,14 @@ body.page-yellow .tf-mouse-outer {
 .custom-tab:hover .image {
     background: #fff;
     box-shadow: 0px 7px 40px rgba(10, 52, 89, 0.60);
+}
+
+.custom-image {
+    border-radius: 50px;
+}
+
+.custom-image-div {
+    border: 2px solid gray;
+    border-radius: 50px;
+    padding: 20px;
 }
