@@ -616,7 +616,7 @@
     height: 2px;
     top: 50%;
     left: 0;
-    background: #6844ED;
+    background: #0A3459;
 }
 
 .tf-blog-detail .wrap-inner .bottom {
@@ -1977,7 +1977,7 @@ ul.list-item li .icon-tick::before {
 }
 
 .wg-tool h3 a:hover {
-    color: #6844ED;
+    color: #0A3459;
 }
 
 .wg-tool .order {
@@ -4911,7 +4911,7 @@ ul.list-item li .icon-tick::before {
 }
 
 .feature-item h3 a:hover {
-    color: #6844ED;
+    color: #0A3459;
 }
 
 /* range-two-val */
