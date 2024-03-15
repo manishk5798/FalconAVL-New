@@ -122,7 +122,7 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    font-family: inherit;
+    font-family: Poppins;
     font-size: 100%;
     font-style: inherit;
     font-weight: inherit;
@@ -226,7 +226,7 @@ button,
 input,
 select,
 textarea {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #696969;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -243,9 +243,9 @@ img {
 }
 
 p {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 28px;
     color: #696969;
 }
@@ -591,8 +591,8 @@ select {
     width: 100%;
     padding: 20px 30px;
     height: 60px;
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     line-height: 11px;
     border-radius: 10px;
     background-color: #fff;
@@ -601,7 +601,7 @@ select {
 
 select option {
     padding: 20px 30px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 11px;
     color: #696969;
     background-color: #fff;
@@ -632,9 +632,9 @@ input[type="color"] {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    font-family: 'Space Grotesk';
+    font-family: 'Poppins';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 11px;
     border-radius: 10px;
     padding: 25px 30px 24px 30px;
@@ -702,10 +702,10 @@ input[type="url"]::placeholder,
 input[type="search"]::placeholder,
 input[type="tel"]::placeholder,
 input[type="color"]::placeholder {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 11px;
-    font-family: 'Space Grotesk';
+    font-family: 'Poppins';
     color: #696969;
 }
 
@@ -714,11 +714,11 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-    font-family: 'Space Grotesk';
+    font-family: 'Poppins';
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 11px;
-    background-color: #0A3459;
+    background-color: #EB1C22;
     color: #fff;
     border-radius: 14px;
     padding: 20px 48px 20px 30px;
@@ -799,7 +799,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #030014;
     font-weight: 700;
     text-rendering: optimizeLegibility;
@@ -1097,7 +1097,7 @@ a:focus {
     background-color: #0A3459;
     border-radius: 14px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 11px;
     width: max-content;
     height: 51px;
@@ -1219,7 +1219,7 @@ a:focus {
     gap: 7px;
     align-items: center;
     color: #0A3459;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 11px;
 }
 
@@ -1308,7 +1308,7 @@ a:focus {
 }
 
 .menu-primary-menu li a {
-    font-family: 'Space Grotesk';
+    font-family: 'Poppins';
     font-size: 18px;
     font-weight: 600;
     line-height: 45px;
@@ -1391,7 +1391,7 @@ a:focus {
 
 .menu-primary-menu .sub-menu li a {
     color: #121212;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .menu-primary-menu .sub-menu li.current-item a,
@@ -1617,7 +1617,7 @@ a:focus {
 }
 
 #menu-mobile-menu li a {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22px;
     font-weight: 500;
     color: #fff;
@@ -1637,7 +1637,7 @@ a:focus {
     position: absolute;
     right: 0;
     top: 17px;
-    line-height: 16px;
+    line-height: 18px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -1664,7 +1664,7 @@ a:focus {
 }
 
 #menu-mobile-menu>li .sub-menu-mobile a {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22px;
     font-weight: 500;
 }
@@ -1839,7 +1839,7 @@ a:focus {
 }
 
 .avatar-wrapper p span {
-    font-family: 'Playfair Display';
+    font-family: 'Poppins';
     font-style: italic;
 }
 
@@ -1860,7 +1860,7 @@ a:focus {
 
 .footer-title {
     color: #FFF;
-    font-family: 'Space Grotesk';
+    font-family: 'Poppins';
     font-size: 20px;
     font-weight: 600;
     line-height: 14px;
@@ -1870,8 +1870,8 @@ a:focus {
 
 #footer p.text {
     color: #FFF;
-    font-family: 'Space Grotesk';
-    font-size: 16px;
+    font-family: 'Poppins';
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     margin-top: -4px;
@@ -1902,7 +1902,7 @@ ul.wg-social li a:hover {
 }
 
 ul.wg-menu li {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 20px;
     margin-bottom: 20px;
@@ -1964,7 +1964,7 @@ ul.wg-menu li a:hover {
 
 .footer-bottom ul li a {
     color: #FFF;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 20px;
 }
@@ -2170,7 +2170,7 @@ ul.wg-menu li a:hover {
 
 .box-subscribe h4 span {
     color: #3468F0;
-    font-family: 'Playfair Display';
+    font-family: 'Poppins';
     font-size: 22px;
     font-style: italic;
     font-weight: 700;
@@ -2326,7 +2326,7 @@ ul.wg-menu li a:hover {
 .cta-title h2 span {
     line-height: 51px;
     font-style: italic;
-    font-family: 'Playfair Display';
+    font-family: 'Poppins';
 }
 
 .cta-content {
@@ -2362,7 +2362,7 @@ ul.wg-menu li a:hover {
 .cta-wrapper-1 h2 {
     color: #1D1F21;
     letter-spacing: -1.44px;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
 }
 
 .cta-wrapper-1 p {
@@ -2407,7 +2407,7 @@ ul.wg-menu li a:hover {
     position: absolute;
     top: 143px;
     right: 106px;
-    border-radius: 16px;
+    border-radius: 18px;
     box-shadow: 0px 20px 40px 0px rgba(9, 182, 162, 0.10);
 }
 
@@ -2561,10 +2561,10 @@ ul.wg-menu li a:hover {
     height: 100%;
     top: 0%;
     left: 0%;
-    /* background: url(../images/item-background/line.png); */
+    background: url(../images/bg-section/custom-tab-bg.jpg);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 .flat-title-page .heading {
@@ -2578,9 +2578,36 @@ ul.wg-menu li a:hover {
 }
 
 .flat-title-page .heading span {
-    font-family: 'Playfair Display';
+    font-family: 'Poppins';
     font-style: italic;
     color: #0A3459;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-item.show .nav-link {
+    color: #fff;
+    cursor: default;
+    background-color: #0275d8;
+    padding: 18px;
+    font-weight: 900;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-item.show .nav-link {
+    color: #fff;
+    cursor: default;
+    background-color: #0275d8;
+    padding: 18px;
 }
 
 .breadcrumbs {
@@ -2601,7 +2628,7 @@ ul.wg-menu li a:hover {
 
 .breadcrumbs li a {
     color: #FFF;
-    font-family: "Space Grotesk";
+    font-family: "Poppins";
     font-size: 24px;
     font-weight: 700;
     line-height: 17px;
@@ -2738,7 +2765,7 @@ body.page-yellow .preload-container .bar {
     font-family: 'icomoon';
     text-align: center;
     line-height: 50px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 900;
     color: #fff;
     left: 0;

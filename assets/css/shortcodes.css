@@ -105,7 +105,7 @@
 .widget-categories ul li i,
 .widget-categories .cate-item a {
     color: #696969;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 18px;
     letter-spacing: -0.32px;
@@ -154,7 +154,7 @@
 .comment,
 .date {
     color: #696969;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
 }
@@ -210,7 +210,7 @@
 
 .widget-trailer .content .title .text-2 {
     color: #CBED44;
-    font-family: 'Playfair Display';
+    font-family: 'Poppins';
     font-size: 28px;
     font-style: italic;
     font-weight: 700;
@@ -286,7 +286,7 @@
 
 .side-bar.style-2 .widget-search .icon-search {
     right: 18px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .side-bar.style-2 .widget-search .icon-search::before {
@@ -319,7 +319,7 @@
 
 .side-bar.style-2 .widget-trailer .content .title .text-2 {
     color: #CBED44;
-    font-family: 'Playfair Display';
+    font-family: 'Poppins';
     font-size: 20px;
     font-style: italic;
     font-weight: 700;
@@ -404,7 +404,7 @@
 
 .author a {
     line-height: 16px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .wg-quote {
@@ -560,7 +560,7 @@
 
 .tf-blog-detail .wrap-inner>p {
     color: #696969;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     margin-bottom: 40px;
@@ -602,7 +602,7 @@
 
 .tf-blog-detail .wrap-inner .wg-quote .wrapper-info .author {
     color: #696969;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 28px;
     padding-left: 70px;
@@ -634,7 +634,7 @@
     border: 1.5px solid rgba(104, 68, 237, 0.20);
     padding: 13px 23px;
     line-height: 11px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -874,7 +874,7 @@
 
 .wg-banner-1 .content .title span {
     color: #fff;
-    font-family: 'Playfair Display';
+    font-family: 'Poppins';
     font-style: italic;
     font-size: 65px;
     font-weight: 700;
@@ -906,7 +906,7 @@
 
 .wg-banner-1 .content .grid-button>span {
     color: #FFF;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
 }
@@ -930,7 +930,7 @@
 
 .wg-banner-1 .box-1 p {
     color: #FFF;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 28px;
     padding: 6px 0px 6px 20px;
@@ -1057,7 +1057,7 @@
 
 .wg-banner-1 .wrap-user p {
     color: #FFF;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     margin-bottom: 35px;
@@ -1083,7 +1083,7 @@
     border: 1px solid rgba(104, 68, 237, 0.20);
     border-radius: 50%;
     background: #FFF;
-    font-size: 16px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1111,7 +1111,7 @@
 }
 
 .wg-banner-1 .wrap-user .counter-like .icon-heart {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .wg-banner-1 .wrap-user.item-1 {
@@ -1268,13 +1268,13 @@
 }
 
 .partners-inner .swiper-slide .item-4 {
-    width: 170px;
+    width: 150px;
     height: 80px;
 }
 
 .partners-inner .swiper-slide .item-5 {
-    width: 170px;
-    height: 80px;
+    width: 220px;
+    height: 55px;
 }
 
 /* style-1 */
@@ -1395,7 +1395,7 @@
 
 .wg-partners-2 .info .text {
     color: rgba(255, 255, 255, 0.65);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 21px;
     padding-left: 33px;
@@ -1554,7 +1554,7 @@
     padding: 7px;
     background-color: #6844ED;
     color: #FFF;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 50%;
 }
 
@@ -1716,7 +1716,7 @@
 
 .grid-counter .counter .text {
     color: #C8C8C8;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 24px;
 }
@@ -1819,7 +1819,7 @@
 
 .wg-create-design.style-4 .image .box-1 p {
     color: #FFF;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 28px;
     padding: 6px 0px 6px 20px;
@@ -1911,7 +1911,7 @@
 ul.list-item li {
     margin-bottom: 10px;
     color: #696969;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     display: flex;
@@ -2384,7 +2384,7 @@ ul.list-item li .icon-tick::before {
 .pricing-item ul li {
     padding-left: 40px;
     color: #696969;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     margin-bottom: 25px;
@@ -2801,7 +2801,7 @@ ul.list-item li .icon-tick::before {
 
 .pricing-item.style-3 .number-price {
     color: #FFF;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     position: relative;
@@ -3046,7 +3046,7 @@ ul.list-item li .icon-tick::before {
 
 .faqs-wrap-1.type-1 .flat-toggle {
     background: #FFF;
-    box-shadow: 0px 10px 60px 0px rgba(104, 68, 237, 0.20);
+    box-shadow: 0px 10px 60px 0px rgba(10, 52, 89, 0.20);
 }
 
 .faqs-wrap-1.type-1 .flat-toggle h4.toggle-title {
@@ -3054,7 +3054,7 @@ ul.list-item li .icon-tick::before {
 }
 
 .faqs-wrap-1.type-1 .flat-accordion .flat-toggle .toggle-title::after {
-    color: #6844ED !important;
+    color: #0A3459 !important;
 }
 
 .faqs-wrap-1.type-1 .flat-toggle .toggle-content p {
@@ -3943,7 +3943,7 @@ ul.list-item li .icon-tick::before {
 .slider-type2 .swiper-button-next::after {
     content: '\ea3c';
     font-family: 'icomoon';
-    font-size: 16px;
+    font-size: 18px;
     color: #0A3459;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -3955,7 +3955,7 @@ ul.list-item li .icon-tick::before {
 .slider-type2 .swiper-button-prev::after {
     content: '\ea40';
     font-family: 'icomoon';
-    font-size: 16px;
+    font-size: 18px;
     color: #0A3459;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -4025,7 +4025,7 @@ ul.list-item li .icon-tick::before {
     margin-top: 16px;
     margin-bottom: 30px;
     color: #696969;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 20px;
 }
@@ -4419,13 +4419,13 @@ ul.list-item li .icon-tick::before {
 /* wg-services */
 /* ----------------------------------------------- */
 .wg-services {
-    background: #171825;
+    background: #fff;
     padding-top: 130px;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
 }
 
 .services-item {
-    background-color: #11121C;
+    background-color: rgba(10, 52, 89, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.10);
     padding: 25px 40px;
     border-radius: 10px;
@@ -4444,7 +4444,7 @@ ul.list-item li .icon-tick::before {
     width: 80px;
     min-width: 80px;
     height: 80px;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(230, 248, 94, 0.10) 100%);
+    background: #0A3459;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -4456,7 +4456,7 @@ ul.list-item li .icon-tick::before {
 }
 
 .services-item .content h4 {
-    color: #FFF;
+    color: #000;
     letter-spacing: -0.66px;
     margin-bottom: 9px;
 }
@@ -4476,12 +4476,12 @@ ul.list-item li .icon-tick::before {
 }
 
 .services-item:hover {
-    border-color: #E6F85E;
+    border-color: 1.5px solid rgba(10, 52, 89, 0.20);
 }
 
 .services-item:hover>a {
-    color: #030014;
-    background: #E6F85E;
+    color: #fff;
+    background: #0A3459;
 }
 
 /* wg-clients */
@@ -4893,6 +4893,7 @@ ul.list-item li .icon-tick::before {
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    height: 100%;
 }
 
 .feature-item:hover {
@@ -4958,7 +4959,7 @@ ul.list-item li .icon-tick::before {
     border: none;
     color: #696969;
     font-family: 'Space Grotesk';
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 11px;
     padding: 0;
@@ -4988,14 +4989,14 @@ ul.list-item li .icon-tick::before {
     font-family: 'icomoon';
     content: '\e915';
     color: #696969;
-    font-size: 16px;
+    font-size: 18px;
     top: 14px;
     right: 20px;
 }
 
 .dropdown span {
     color: #696969;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
     -webkit-transition: all 0.3s ease-in-out;
@@ -5184,7 +5185,7 @@ ul.list-item li .icon-tick::before {
 
 .card-item .card-content .price {
     color: #6844ED;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 28px;
 }
@@ -5193,7 +5194,7 @@ ul.list-item li .icon-tick::before {
 /* ------------------------------------------- */
 .shop-page-inner .text {
     color: #030014;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 28px;
 }
@@ -5214,7 +5215,7 @@ ul.list-item li .icon-tick::before {
     gap: 10px;
     align-items: center;
     color: #696969;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: normal;
     margin-bottom: 11px;
@@ -5282,7 +5283,7 @@ ul.list-item li .icon-tick::before {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .quantity .btn-quantity.minus-btn {
@@ -5332,7 +5333,7 @@ ul.list-item li .icon-tick::before {
 
 .wg-single-detail .more-infor .text {
     color: #696969;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 27px;
 }
