@@ -1366,7 +1366,7 @@ a:focus {
 .menu-primary-menu .sub-menu {
     position: absolute;
     background: #fff;
-    min-width: 290px;
+    min-width: max-content;
     left: 0%;
     top: 110%;
     border-radius: 8px;
@@ -2573,7 +2573,7 @@ ul.wg-menu li a:hover {
     color: #FFF;
     font-size: 65px;
     font-weight: 700;
-    line-height: 46px;
+    line-height: 50px;
     letter-spacing: -1.95px;
     text-align: center;
     margin-bottom: 50px;
@@ -2962,8 +2962,8 @@ body.page-yellow .tf-mouse-outer {
 }
 
 .custom-tab .image {
-    width: 80px !important;
-    height: 80px;
+    width: 60px !important;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2990,7 +2990,7 @@ body.page-yellow .tf-mouse-outer {
 
 .custom-icon-tab {
     color: #fff;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .custom-tab:hover .image span::before {
@@ -3011,3 +3011,11 @@ body.page-yellow .tf-mouse-outer {
     border-radius: 50px;
     padding: 20px;
 }
+
+.inclusive-heading{
+    font-size: 20px;
+}
+
+ .inclusive-sub-heading{
+    font-size: 16px;
+ }
