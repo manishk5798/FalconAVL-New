@@ -1628,7 +1628,7 @@ a:focus {
 #menu-mobile-menu li.current-menu-item>a,
 #menu-mobile-menu li a:hover,
 #menu-mobile-menu li.current-item a {
-    color: #0A3459;
+    color: #fff;
 }
 
 #menu-mobile-menu li.menu-item-has-children-mobile>a::after {

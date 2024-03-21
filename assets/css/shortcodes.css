@@ -4185,6 +4185,7 @@ ul.list-item li .icon-tick::before {
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    text-align: right;
 }
 
 .works-item-left:hover {
