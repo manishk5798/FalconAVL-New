@@ -2173,13 +2173,13 @@ ul.list-item li .icon-tick::before {
     left: 50%;
     width: 2px;
     height: 100%;
-    background: rgba(104, 68, 237, 0.10);
+    background: rgba(10, 52, 89, 0.10);
 }
 
 .road-map-item {
     max-width: 410px;
     border-radius: 15px;
-    background: #EBEBFD;
+    background: rgba(10, 52, 89, 0.1);
     padding: 40px 50px 30px;
     border: 1px solid #EBEBFD;
     position: relative;
@@ -2191,9 +2191,9 @@ ul.list-item li .icon-tick::before {
 }
 
 .road-map-item:hover {
-    border: 1px solid #6844ED;
+    border: 1px solid #0A3459;
     background: #FFF;
-    box-shadow: 0px 10px 60px 0px rgba(104, 68, 237, 0.20);
+    box-shadow: 0px 10px 60px 0px rgba(10, 52, 89, 0.20);
 }
 
 .road-map-item.item-1 {
@@ -2238,7 +2238,7 @@ ul.list-item li .icon-tick::before {
 }
 
 .road-map-item h4 a:hover {
-    color: #6844ED;
+    color: #0A3459;
 }
 
 .road-map-item .arrow {
@@ -4171,6 +4171,82 @@ ul.list-item li .icon-tick::before {
 
 
 
+
+.works-item-left {
+    width: 600px;
+    border-radius: 20px;
+    border: 1px solid rgba(10, 52, 89, 0.20);
+    background: #F2F8FD;
+    /* margin-left: auto; */
+    padding: 25px 70px 25px 20px;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.works-item-left:hover {
+    border: 1px solid #0A3459;
+    background: #FFF;
+    box-shadow: 0px 10px 40px 0px rgba(10, 52, 89, 0.20);
+}
+
+.works-item-left .number {
+    position: absolute;
+    top: 34px;
+    right: -25px;
+    width: 55px;
+    height: 55px;
+    border-radius: 12px;
+    border: 1.5px solid rgba(10, 52, 89, 0.20);
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0A3459;
+    font-weight: 700;
+    font-size: 24px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.works-item-left:hover .number {
+    background: #0A3459;
+    color: #FFF;
+}
+
+.works-item-left h3 {
+    letter-spacing: -0.72px;
+    margin-bottom: 13px;
+}
+
+.works-item-left h3 a {
+    color: #030014;
+}
+
+.works-item-left h3 a:hover {
+    color: #0A3459;
+}
+
+.wg-works-1 .content {
+    margin-top: 12px;
+}
+
+.works-item-left.style-1 {
+    width: unset;
+    padding: 25px 40px 25px 38px;
+}
+
+.works-item-left.style-1 h3 {
+    margin-bottom: 8px;
+}
+
 .video-wrap.style-1 {
     margin-left: 80px;
     padding: 30px 37px 30px 38px;
@@ -5638,7 +5714,7 @@ ul.list-item li .icon-tick::before {
 }
 
 .file-item {
-    border-top: 1.5px solid rgba(255, 255, 255, 0.1);
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
     padding-top: 71.5px;
     margin-bottom: 30px;
     -webkit-transition: all 0.3s ease-in-out;
@@ -5649,7 +5725,7 @@ ul.list-item li .icon-tick::before {
 }
 
 .file-item:hover {
-    border-top-color: #e6f85e;
+    border-top-color: #0A3459;
 }
 
 .file-item.item-1 {
@@ -5686,11 +5762,11 @@ ul.list-item li .icon-tick::before {
 }
 
 .file-item h4 a {
-    color: #FFF;
+    color: #000;
 }
 
 .file-item h4 a:hover {
-    color: rgba(230, 248, 94, 1);
+    color: rgba(10, 52, 89, 1);
 }
 
 /* wg-box-features */
