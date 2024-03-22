@@ -26,11 +26,16 @@
     <!-- Reponsive -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
 
+    <!-- flaticon -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+
     <!-- Favicon and Touch Icons  -->
-    <link rel="shortcut icon" href="assets/images/logo/head-logo.png" />
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
     <link
       rel="apple-touch-icon-precomposed"
-      href="assets/images/logo/head-logo.png"
+      href="assets/images/favicon.png"
     />
   </head>
 
@@ -63,7 +68,6 @@
                   <img
                     id="logo_header"
                     src="assets/images/logo/logo.png"
-                    data-retina="assets/images/logo/logo@2x.png"
                   />
                 </a>
               </div>
@@ -98,14 +102,14 @@
                   </ul>
                 </li>
                 <li class="menu-item menu-item-has-children">
-                  <a href="#">Use Cases</a>
+                  <a href="#">Services</a>
                   <ul class="sub-menu">
-                    <li class="menu-item">
+                    <!-- <li class="menu-item">
                       <a href="use-cases.html">Use Cases</a>
-                    </li>
+                    </li> -->
                     <li class="menu-item">
                       <a href="employee-transport-management.html"
-                        >Use Cases Detail</a
+                        >Employee Transport Management</a
                       >
                     </li>
                   </ul>
@@ -175,7 +179,6 @@
                 <img
                   id="mobile-logo_header"
                   src="assets/images/logo/logo.png"
-                  data-retina="assets/images/logo/logo@2x.png"
                 />
               </a>
               <div class="mobile-nav-close">
@@ -278,15 +281,15 @@
           <div class="themesflat-container">
             <div class="row">
               <div class="col-12">
-                <div class="heading">Contact Us</div>
-                <ul class="breadcrumbs">
+                <div class="heading">Contact</div>
+                <!-- <ul class="breadcrumbs">
                   <li class="icon-arrow-right relative">
                     <a href="index.html">Home</a>
                   </li>
                   <li class="active">
                     <a href="#">Contact Us</a>
                   </li>
-                </ul>
+                </ul> -->
               </div>
             </div>
           </div>
@@ -294,7 +297,7 @@
         <!-- /flat-title-page -->
 
         <!-- Contact Info -->
-        <div class="contact-info pt-130">
+        <!-- <div class="contact-info pt-130">
           <div class="themesflat-container">
             <div class="row">
               <div class="col-lg-4 col-md-6 col-12">
@@ -338,27 +341,10 @@
                     Madhapur, Hyderabad
                   </p>
                 </div>
-              </div>
-              <!-- <div class="col-lg-3 col-md-6 col-12">
-                <div
-                  class="wg-helpful style-1 wow fadeInUp"
-                  data-wow-delay="0.3s"
-                >
-                  <div class="image">
-                    <div class="icon">
-                      <span class="icon-clock"></span>
-                    </div>
-                  </div>
-                  <h6><a href="#">Email Address</a></h6>
-                  <p>
-                    Sunday-Monday <br />
-                    08am - 05 pm
-                  </p>
-                </div>
-              </div> -->
+              </div>            
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- /Contact Info -->
 
         <!-- messages -->
@@ -366,17 +352,17 @@
           <div class="themesflat-container">
             <div class="row justify-center">
               <div class="col-12">
-                <div class="heading-section wow fadeInUp style-2 text-center">
-                  <h6>Get In Touch</h6>
+                <div class="heading-section wow fadeInUp style-2 text-center mb-2">
+                  <!-- <h6>Get In Touch</h6> -->
                   <div class="main-title">
-                    Send Us
-                    <span class="animation-text tf-color">Messages</span>
+                    Get In Touch         
+                    <!-- <span class="animation-text tf-color">Messages</span> -->
                   </div>
                 </div>
               </div>
               <div class="col-12">
                 <div class="widget-reply wow fadeInUp">
-                  <form class="comment-form">
+                  <!-- <form class="comment-form">
                     <div class="columns flex justify-between gap20">
                       <fieldset class="name">
                         <input
@@ -394,7 +380,7 @@
                         <input
                           type="email"
                           id="email"
-                          placeholder="Email Address"
+                          placeholder="Your Email"
                           class="mb-20"
                           name="email"
                           tabindex="2"
@@ -405,48 +391,252 @@
                       </fieldset>
                     </div>
                     <div class="columns flex justify-between gap20">
-                      <fieldset class="website">
+                      <fieldset class="">
+                        <input
+                          type="tel"
+                          placeholder="Phone Number"
+                          class="mb-20"
+                          name="phone"
+                          tabindex="2"
+                          value=""
+                          aria-required="true"
+                          required=""
+                           maxlength="10"
+                        />
+                      </fieldset>
+                      <fieldset class="company">
                         <input
                           type="text"
-                          placeholder="Website"
+                          placeholder="Company"
                           class="mb-20"
-                          name="website"
+                          name="company"
                           tabindex="2"
                           value=""
                           aria-required="true"
                           required=""
                         />
                       </fieldset>
-                      <fieldset>
-                        <select name="" id="">
-                          <option value="Subject">Subject</option>
-                          <option value="Subject">AI</option>
-                          <option value="Subject">Media</option>
-                        </select>
-                      </fieldset>
+                      
                     </div>
                     <fieldset class="message">
                       <textarea
                         id="message"
                         name="message"
                         rows="4"
-                        placeholder="Message"
+                        placeholder="Give Us Your Requirements"
                         class="mb-20"
                         tabindex="4"
                         aria-required="true"
                         required=""
                       ></textarea>
                     </fieldset>
-                    <div class="text-center">
-                      <button class="" type="submit">Send Us Message</button>
+                    <div class="text-start mt-5">
+                      <button class="" type="submit">Schedule A Demo</button>
                     </div>
-                  </form>
+                  </form> -->
+
+                  <form id="comment-form">
+                  <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 mb-4">
+                      <div>
+                        <input
+                          type="text"
+                          placeholder="Full name"
+                          name="name"
+                          id="name"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 mb-4">
+                      <div>
+                        <input
+                          type="email"
+                          placeholder="Your email"
+                          name="email"
+                          id="email"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 mb-4">
+                      <div>
+                        <input
+                          type="tel"
+                          placeholder="Phone number"
+                          name="phone"
+                          id="phone"
+                          required
+                          maxlength="10"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 mb-4">
+                      <div>
+                        <input
+                          type="text"
+                          placeholder="Company"
+                          name="Company"
+                          id="company"
+                          required
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xl-12 col-md-12">
+                      <div>
+                        <textarea
+                          name="message"
+                          placeholder="Give us your requirements"
+                          id="message"
+                          required
+                        ></textarea>
+                      </div>
+                      <div class="text-start mt-5">
+                      <button class="" type="submit">Schedule A Demo</button>
+                    </div>
+                    </div>
+                  </div>
+                </form>
                 </div>
               </div>
             </div>
           </div>
         </div>
         <!-- /messages -->
+        
+        <!-- contact us -->
+
+        <div class="" style="padding-top: 100px; padding-bottom: 100px; background: #030014">
+           <div class="item1 block-blur-1" style="background: #0A3459"></div>
+                <div class="item2 block-blur-2" style="background: #EB1C22"></div>
+                <div class="item3 block-blur-3" style="background: #F2F2F2"></div>
+                <div class="item4 block-blur-4" style="background: #0D0D0D"></div>
+          <div class="themesflat-container">
+            <div class="heading-section wow fadeInUp style-2">
+                    <div class="main-title text-center text-white">   
+                      Contact               
+                      <span
+                        class="animationtext letters rotate-3 animation-text text-white"
+                      >
+                        <span class="cd-words-wrapper text-white">
+                          <span class="item-text is-visible text-white"
+                            >Us &nbsp; </span
+                          >
+                          <span class="item-text is-hidden text-white"
+                            >Us &nbsp;  </span
+                          >
+                          <span class="item-text is-hidden text-white"
+                            >Us &nbsp;  </span
+                          >
+                        </span>
+                      </span>
+                    
+                    </div>
+                  </div>
+                
+            <div class="row" style="padding-top: 35px;">
+              <div class="col-lg-12">
+                <div class="content">
+                  <div class="row gap-4">
+                    <div class="col-lg-4">
+                     <div class="text-center">
+                        <i class="fi fi-rr-envelope custom-icon-contact"></i>                     
+                     </div> 
+                      <h4 class="text-white text-center mt-5 mb-5">sales@falconavl.com</h4>
+                    </div>    
+                    <div class="col-lg-4">
+                      <div class="text-center">
+                        <i class="fi fi-rr-phone-call custom-icon-contact"></i>                     
+                     </div>
+                     <h4 class="text-white text-center mt-5 mb-5">+91 4071328181</h4>                    
+                    </div> 
+                    <div class="col-lg-4">
+                      <div class="text-center">
+                        <i class="fi fi-rr-marker custom-icon-contact"></i>                     
+                     </div> 
+                     <h4 class="text-white text-center mt-5 mb-5">
+                      VIP Hills Silicon Valley<br/>
+                      Madhapur, Hyderabad
+                    </h4>                     
+                    </div>               
+                  </div>                                  
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        <!-- contact us -->
+
+
+        <!-- located in -->
+       <div class="" style="padding-top: 80px; padding-bottom: 50px; background: #fff">
+           <div class="item1 block-blur-1" style="background: #0A3459"></div>
+                <div class="item2 block-blur-2" style="background: #EB1C22"></div>
+                <div class="item3 block-blur-3" style="background: #F2F2F2"></div>
+                <div class="item4 block-blur-4" style="background: #0D0D0D"></div>
+          <div class="themesflat-container">
+             <div class="map">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 m-auto pb-5">
+                <div class="locate-content card p-5">
+                  <h3 class="text-white mt-2 mb-5" style="font-size: 35px;">We are located in</h3>
+                  <div class="row justify-content-center locate">
+                    <div class="col-6 col-lg-4 col-md-6 col-xs-6 mb-4">
+                      <h5 class="text-white">Hyderabad</h5>
+                    </div>
+                    <div class="col-6 col-lg-4 col-md-6 col-xs-6 mb-4">
+                      <h5 class="text-white">Bengaluru</h5>
+                    </div>
+                    <div class="col-6 col-lg-4 col-md-6 col-xs-6 mb-4">
+                      <h5 class="text-white">Chennai</h5>
+                    </div>
+                    <div class="col-6 col-lg-4 col-md-6 col-xs-6 mb-4">
+                      <h5 class="text-white">Kolkata</h5>
+                    </div>
+                    <div class="col-6 col-lg-4 col-md-6 col-sm-6 mb-4">
+                      <h5 class="text-white">Delhi NCR</h5>
+                    </div>
+                    <div class="col-6 col-lg-4 col-md-6 col-sm-6 mb-4">
+                      <h5 class="text-white">Gurugram</h5>
+                    </div>
+                    <div class="col-6 col-lg-4 col-md-6 col-sm-6 mb-4">
+                      <h5 class="text-white">Pune</h5>
+                    </div>
+                    <div class="col-6 col-lg-4 col-md-6 col-sm-6 mb-4">
+                      <h5 class="text-white">Mumbai</h5>
+                    </div>
+                    <div class="col-6 col-lg-4 col-md-6 col-sm-6 mb-4">
+                      <h5 class="text-white">Ahmedabad</h5>
+                    </div>
+                    <div class="col-6 col-lg-4 col-md-6 col-sm-6 mb-4">
+                      <h5 class="text-white">Vijayawada</h5>
+                    </div>
+                    <div class="col-6 col-lg-4 col-md-6 col-sm-6 mb-4">
+                      <h5 class="text-white">Vizag</h5>
+                    </div>
+                    <div class="col-6 col-lg-4 col-md-6 col-sm-6 mb-4">
+                      <h5 class="text-white">Coimbatore</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 map-content pb-4">
+                <img
+                  class="img-responsive map-img"
+                  src="assets/images/bg-section/map.png"
+                  style="width: 100%"
+                />
+              </div>
+            </div>
+          </div>              
+          </div>
+        </div>
+
+       <!-- located in -->
 
         <iframe
           class="map"
@@ -515,7 +705,6 @@
                       <img
                         id="logo_footer"
                         src="assets/images/logo/logo.png"
-                        data-retina="assets/images/logo/logo@2x.png"
                       />
                     </a>
                   </div>
@@ -718,8 +907,12 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/countto.js"></script>
+    <script src="assets/js/nouislider.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
     <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/textanimation.js"></script>
     <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script
   </body>
 </html>
