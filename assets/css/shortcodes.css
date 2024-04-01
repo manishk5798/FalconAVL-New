@@ -545,6 +545,8 @@
     letter-spacing: -0.54px;
 }
 
+
+
 .tf-blog-detail .main-image img {
     border-radius: 14px;
     width: 100%;
@@ -1194,6 +1196,22 @@
     font-style: italic;
     line-height: 51px;
 }
+
+.heading-section .main-custom-title {
+    color: #030014;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: -1.44px;
+}
+
+.heading-section .main-custom-title span {
+    color: #0A3459;
+    font-family: 'Playfair Display !important';
+    font-style: italic;
+    line-height: 51px;
+}
+
 
 /* style-1 */
 .heading-section.style-1 .main-title {
