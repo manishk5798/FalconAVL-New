@@ -21,11 +21,11 @@ Primary style
 .cd-words-wrapper .item-text {
   display: inline-block;
   position: absolute;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   left: 0;
   top: 0;
   font-weight: inherit;
-  width: 100%;
+  width: auto !important;
 }
 
 .cd-words-wrapper .item-text.is-visible {
@@ -254,9 +254,9 @@ xrotate-3
 
 -------------------------------- */
 .animationtext.rotate-3 .cd-words-wrapper {
-  -webkit-perspective: 300px;
+  /* -webkit-perspective: 300px;
   -moz-perspective: 300px;
-  perspective: 300px;
+  perspective: 300px; */
 }
 
 .animationtext.rotate-3 .item-text {
