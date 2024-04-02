@@ -943,7 +943,7 @@ h6 {
 }
 
 .tf-color {
-    color: #0A3459 !important;
+    color: #fff !important;
 }
 
 .tf-color-green {
@@ -1812,7 +1812,7 @@ a:focus {
 /* --------------------------------------------------- */
 #footer {
     background: #0C091D;
-    background-image: url(../images/item-background/line.png);
+    /* background-image: url(../images/item-background/line.png); */
     position: relative;
 }
 
